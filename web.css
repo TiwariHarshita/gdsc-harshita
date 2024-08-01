@@ -1,0 +1,1169 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  font-size: 62.5%;
+  background-size: cover;
+  font-family: orbitron;
+  color: white;
+}
+
+.main{
+  text-align: center;
+
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.div {
+  
+  contain: content;
+  overflow: hidden;
+}
+
+.planets {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  pointer-events: none;
+}
+
+.planet {
+  position: absolute;
+  z-index: 0;
+}
+
+.page1 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.logo {
+  height: 5 rem;
+  margin-left: 10rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-self: center;
+  margin-right: 65rem;
+}
+
+nav li {
+  cursor: pointer;
+  align-self: center;
+  display: flex;
+  margin-right: 7rem;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 6px 15px;
+  color:#fff;
+  border-radius: 20px;
+  font-weight: 500;
+}
+nav li:hover , .active{
+  color:#2b1055;
+  background: #fff;
+  color: #060606;
+}
+
+.content h1 {
+  font-size: 9rem;
+  margin: 0;
+  z-index: 100;
+}
+.content #one {
+  margin-top: 1755rem;
+}
+.two {
+  margin-bottom: 15rem;
+}
+
+.content p {
+  font-size: 2rem;
+
+  text-align: center;
+
+  align-self: center;
+  width: 60%;
+  margin-bottom: 5rem;
+}
+.content {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  bottom: 5%;
+}
+.learn {
+  background: linear-gradient(
+    315deg,
+    #541296 1.19%,
+    #176d9b 1.5%,
+    #2500ff 94.46%
+  );
+
+  padding: 1.5rem, 2.5rem;
+  color: white;
+  font-size: 3.5rem;
+  cursor: pointer;
+  border-color: black;
+
+  transition: 1s;
+  width: 25rem;
+  height: 8rem;
+  border-radius: 1rem;
+}
+
+button {
+  /* background: linear-gradient(
+    315deg,
+    #cd1013 1.19%,
+    #ff0004 1.5%,
+    #2500ff 94.46%
+  ); */
+
+  background: transparent;
+
+  border: 2px white solid;
+  padding: 1.5rem, 2.5rem;
+  color: white;
+  font-size: 3.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: 1s;
+  width: 25rem;
+  height: 8rem;
+}
+.moonplanet {
+  position: absolute;
+  right: 30%;
+  bottom: 46%;
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: solid;
+  font-family: cursive;
+  margin-bottom: 3.5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.content {
+  margin-right: 0rem;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1c6f8a, #023548); 
+  &.grow {
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.5);}
+    }
+}
+
+.planet1 {
+  position: absolute;
+  width: 10%;
+  height: 24%;
+  top: 9.8%;
+  left: 0%;
+}
+
+.page2 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page3 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page4 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page5 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page6 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page7 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page8 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page9 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page10 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.btn4 {
+  bottom: 5%;
+  right: 10%;
+  position: absolute;
+  z-index: 500;
+}
+
+.abba {
+  position: absolute;
+  left: 30%;
+  bottom: 43%;
+  width: 40%;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+
+.earth {
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  height: 40%;
+  bottom: 0%;
+  position: absolute;
+}
+.rocket {
+  position: absolute;
+  left: 0%;
+  bottom: 30%;
+  width: 15%;
+  height: 20%;
+}
+.arrow {
+  position: absolute;
+  right: 17%;
+  bottom: 43%;
+  width: 11%;
+  height: 10%;
+}
+.earth1 {
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  height: 40%;
+  bottom: 0%;
+  position: absolute;
+}
+
+.planet2 {
+  top: 9%;
+  right: 45%;
+  width: 6%;
+  animation: rotate 1s linear infinite;
+}
+.planet3 {
+  top: 5%;
+  right: 0%;
+  width: 12%;
+}
+.planet4 {
+  top: 34%;
+  left: 0;
+  width: 13%;
+}
+.planet5 {
+  bottom: 0%;
+  left: 0%;
+  width: 7%;
+}
+.planet6 {
+  bottom: 0%;
+  left: 30%;
+  width: 8%;
+}
+.planet7 {
+  bottom: 0%;
+  right: 0%;
+  width: 17%;
+}
+.sun {
+  width: 97%;
+  height: 45%;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.venus {
+  width: 100%;
+}
+.sun-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 7%;
+  flex-direction: column;
+  width: 50%;
+}
+.nep-container {
+  font-family: Arial, sans-serif;
+
+  color: #edf2f4; /* Light text */
+
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 7%;
+  flex-direction: column;
+  width: 60%;
+  position: absolute;
+  height: 20%;
+  left: 13%;
+}
+.venus-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 5%;
+  top: 12%;
+  flex-direction: column;
+  width: 50%;
+}
+.saturn-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 5%;
+  top: 12%;
+  flex-direction: column;
+  width: 50%;
+}
+.earth-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 5%;
+  top: 7%;
+  flex-direction: column;
+  width: 50%;
+}
+.uranus-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 5%;
+  top: 7%;
+  flex-direction: column;
+  width: 39.9%;
+}
+.mars-container {
+  font-family: orbitron;
+
+  color: #edf2f4; /* Light text */
+
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 5%;
+  top: 7%;
+  flex-direction: column;
+  width: 44.3%;
+}
+.sun-heading {
+  font-size: 7rem;
+  font-weight: 700;
+}
+.nep-heading {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.earth-heading {
+  font-size: 9rem;
+  font-weight: 700;
+}
+.uranus-heading {
+  font-size: 9rem;
+  font-weight: 700;
+}
+.mercury-heading {
+  font-size: 7rem;
+  font-weight: 900;
+}
+.venus-heading {
+  font-size: 7rem;
+  font-weight: 900;
+}
+.saturn-heading {
+  font-size: 7rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.mars-heading {
+  font-size: 9rem;
+  font-weight: 900;
+}
+.mars-heading2 {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: left;
+}
+.sun-container p {
+  font-size: 2rem;
+  text-align: left;
+}
+.nep-container p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.mercury-container p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.earth-container p {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.uranus-container p {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.titan {
+  position: absolute;
+  font-size: 2.6rem;
+  font-weight: 800;
+  top: 22%;
+  left: 11%;
+  font-style: italic;
+  font-family: Tahoma, sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mars-container p {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.saturn-container p {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  width: 89%;
+}
+.venus-container p {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 7rem;
+  width: 78%;
+}
+.sun-details {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.nep-details {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.uranus-details {
+  display: flex;
+  justify-content: space-between;
+  width: 42.5%;
+  position: absolute;
+  right: 9.5%;
+  top: 10%;
+}
+.venus-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+}
+.saturn-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  align-items: flex-end;
+}
+.mercury-details {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.mars-details {
+  display: flex;
+
+  width: 20%;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  right: 12%;
+  height: 85%;
+}
+.info1 {
+  contain: content;
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  align-items: center;
+  padding: 1rem;
+  background: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+
+  border: 4px solid;
+
+  border-image-source: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #170b36 0%,
+    #100a33 11.98%,
+    #370d44 46.35%,
+    #430e49 89.06%
+  );
+
+  border-radius: 4px;
+  height: 10rem;
+  font-size: 2rem;
+  border-radius: 1.6rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.detail10 {
+  contain: content;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  padding: 1rem;
+  background: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+
+  border: 4px solid;
+
+  border-image-source: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #170b36 0%,
+    #100a33 11.98%,
+    #370d44 46.35%,
+    #430e49 89.06%
+  );
+
+  border-radius: 4px;
+  height: 16%;
+  font-size: 2rem;
+  border-radius: 1.6rem;
+  margin-bottom: 18%;
+  position: relative;
+}
+.detail5 {
+  contain: content;
+  display: flex;
+  flex-direction: column;
+  width: 18.5%;
+  align-items: center;
+  padding: 1rem;
+  background: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+
+  border: 4px solid;
+
+  border-image-source: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #170b36 0%,
+    #100a33 11.98%,
+    #370d44 46.35%,
+    #430e49 89.06%
+  );
+
+  border-radius: 4px;
+  height: 10rem;
+  font-size: 2rem;
+  border-radius: 1.6rem;
+  margin-bottom: 2rem;
+  position: absolute;
+  right: 10%;
+  top: 6%;
+}
+.mdetail1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(rgb(49, 1, 49), rgb(136, 2, 100));
+  border-radius: 4px;
+  height: 10rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.info1:hover {
+  cursor: pointer;
+  border-radius: 5rem;
+  background: #b4a2c6;
+  
+  
+}
+.info1 h2 {
+  margin-top: 0%;
+  font-size: 1.5rem;
+  margin-bottom: 0%;
+}
+.info1 h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.detail5 h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.detail5:hover {
+  cursor: pointer;
+  background: #b4a2c6;
+ 
+}
+.detail5 h2 {
+  margin-top: 0%;
+  font-size: 1.5rem;
+  margin-bottom: 0%;
+}
+.detail10 h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.detail10:hover {
+  cursor: pointer;
+  background: #b4a2c6;
+}
+.detail10 h2 {
+  margin-top: 0%;
+  font-size: 1.5rem;
+  margin-bottom: 0%;
+}
+.detail5 h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.mdetail1 h2 {
+  margin-top: 0%;
+  font-size: 1.5rem;
+  margin-bottom: 0%;
+}
+.mdetail1 h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.detail2 {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  padding: 10px;
+  background-color: #931763; 
+  border-radius: 4px;
+}
+.mercury {
+  left: 0%;
+  top: 5%;
+  bottom: 5%;
+  width: 32%;
+  position: absolute;
+  height: 90%;
+}
+.mercury-container {
+  width: 42%;
+  height: 70%;
+  position: absolute;
+  left: 40%;
+  top: 11%;
+  font-family: Arial, sans-serif;
+
+  color: #edf2f4; 
+
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.temp {
+  position: absolute;
+  left: 3%;
+  width: 19%;
+  height: 80%;
+  margin-right: 2rem;
+}
+.temp10 {
+  width: 13%;
+}
+.temp2 {
+  position: absolute;
+
+  left: 3%;
+  width: 15%;
+  height: 80%;
+  margin-right: 0.5rem;
+}
+.temp3 {
+  position: absolute;
+
+  left: 3%;
+  width: 15%;
+  height: 80%;
+  margin-right: 0.5rem;
+}
+
+.btn2 {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+}
+.btn3 {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  font-size: 4rem;
+}
+.sun-container {
+  font-family: Arial, sans-serif;
+
+  color: #edf2f4; /* Light text */
+
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 7%;
+  flex-direction: column;
+  width: 50%;
+}
+.venus {
+  width: 55%;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  height: 100%;
+}
+.earth-dis{
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+.mars {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 33%;
+  height: 55%;
+}
+.arrow2 {
+  position: absolute;
+  width: 8%;
+  height: 8%;
+  bottom: 40%;
+  left: 28%;
+}
+#head2 {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  height: 30%;
+  width: 27%;
+}
+#head2 p {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.jupitor {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 98%;
+  width: 62%;
+}
+.saturn {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 65%;
+}
+.uranus {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 95%;
+  height: 55%;
+}
+.pps {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 85%;
+  height: 53%;
+}
+.neptune {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  bottom: 0%;
+  left: 0%;
+}
+.purpleN {
+  position: absolute;
+  right: 17%;
+  bottom: 33%;
+  width: 10%;
+  height: 10%;
+}
+.whiteN{
+  position: absolute;
+  right: 4%;
+  bottom: 47%;
+  width: 20%;
+  height: 20%;
+}
+.footer {
+  background: #1e1e1e;
+
+  color: white;
+  width: 68%;
+  position: absolute;
+  bottom: 0%;
+}
+.fff {
+  width: 7rem;
+  text-align: center;
+}
+.bbb {
+  width: 17rem;
+
+  height: 3rem;
+}
+
+.footer-content h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.footer-content p {
+  font-size: 2rem;
+}
+
+/* Add other styles as needed for your layout */
+/* ... */
+
+/* Footer logo styles */
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Footer links styles */
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer bottom styles */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("background.png") no-repeat center center fixed;
+ 
+  font-size: 62.5%;
+  background-size: cover;
+  font-family:orbitron;
+  color: white;
+}
+
+
+
+.div {
+  contain: content;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.page1 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page2 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page3 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page4 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.page5 {
+  text-align: center;
+
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.content h1, p, button{
+  font-family: orbitron;
+}
+
+nav li {
+  font-family: orbitron;
+}
+#page5 h1{
+  font-family: orbitron;
+}
+
+
+
+#footer-content{
+    border-radius: 3rem;
+    height: 30%;
+
+}
+
+#page11 li{
+    width: 50%;
+    
+}
+#footerarea{
+  position: absolute;
+  bottom: 10%;
+  left:10%;
+  right: 10%;
+  width:80%;
+  height: 45%;
+  z-index: 1000;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 1376px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 33%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 26%;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 22%;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 19%;
+  }
+}
+
+@media (max-width: 290px) {
+  html {
+    font-size: 14%;
+  }
+}
